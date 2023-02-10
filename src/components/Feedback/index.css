@@ -1,0 +1,73 @@
+/* Write your CSS code here. */
+
+.body {
+  margin: 0;
+}
+
+.feedback-container {
+  background-image: linear-gradient(to right, #ffeeee, #ffc0bb);
+  padding-top: 1px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.feedback-form-container {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  max-width: 350px;
+  height: 300px;
+  border-radius: 10px;
+}
+
+@media screen and (min-width: 567px) {
+  .feedback-form-container {
+    width: 70%;
+    max-width: 500px;
+    height: 350px;
+  }
+}
+
+.feedback-heading {
+  font-family: 'Roboto';
+  font-size: 18px;
+  color: #0f172a;
+  text-align: center;
+  width: 90%;
+  margin-bottom: 20px;
+}
+
+@media screen and (min-width: 567px) {
+  .feedback-heading {
+    font-size: 23px;
+    margin-bottom: 30px;
+  }
+}
+
+.emojis-list-container {
+  width: 90%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.love-img {
+  width: 70px;
+}
+
+.thank-you-heading {
+  font-family: 'Roboto';
+  font-size: 20px;
+  color: #0f172a;
+}
+.appreciation-description {
+  font-family: 'Roboto';
+  font-size: 15px;
+  color: #1e293b;
+  width: 70%;
+  text-align: center;
+}

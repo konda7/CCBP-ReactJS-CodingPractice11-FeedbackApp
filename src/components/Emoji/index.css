@@ -1,0 +1,21 @@
+.emoji-container {
+  list-style-type: none;
+}
+
+.emoji-btn {
+  background-color: transparent;
+  border: 0;
+  cursor: pointer;
+}
+
+.emoji-image {
+  width: 60px;
+}
+
+.emoji-name {
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-weight: 500;
+  color: #1e293b;
+  text-align: center;
+}
